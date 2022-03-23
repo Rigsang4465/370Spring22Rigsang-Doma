@@ -1,0 +1,7 @@
+**Class Diagram**
+
+![A picture containing text, indoor  Description automatically generated](file:///C:/Users/mcses/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+
+ 
+
+Class diagrams are the main building block in object-oriented modeling. They are used to show the different objects in a system, their attributes, their operations and the relationships among them. In the current scenario there is two type of actor. So, by using OOP concepts, there is a super class named as Person class, which contains common attributes, and then that parent class is inherited to child classes User and Employee. The Product class is for the products/floor with their attributes, and category class contains the product categories data. There is composition relation between product and category as product lies in categories if categories destroy then product will also end. And cardinality between them is one to many, as one product is associated with one and only category and one category may have many products. User and employee has simple association relation between them as cardinality between them is many to many as one product can be managed by managed by one or may by many employees, and one employee can manage one or many products. 
